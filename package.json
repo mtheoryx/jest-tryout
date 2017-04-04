@@ -4,9 +4,15 @@
   "description": "Tiny project playing with jest for non-react node projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "David R Poindexter III <drpoindexter@gmail.com> (http://vcard.davidrpoindexter.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "19.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
