@@ -16,6 +16,11 @@
     "jest": "19.0.2"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "./index.js",
+      "./index.test.js",
+      "lib/**/*.js"
+    ]
   }
 }
